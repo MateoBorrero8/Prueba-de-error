@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 
 List<Cliente> listCliente = new List<Cliente>();
-listCliente.Add(new Cliente { Id = 1, Nombre = "Mauro", Sexo = "Masculino", Telefono = 444, Edad = 19, });
-listCliente.Add(new Cliente { Id = 2, Nombre = "Sofia", Sexo = "Femenino", Telefono = 999, Edad = 24, });
-listCliente.Add(new Cliente { Id = 3, Nombre = "Lucas", Sexo = "Masculino", Telefono = 333, Edad = 16, });
-listCliente.Add(new Cliente { Id = 4, Nombre = "Maria", Sexo = "Femenino", Telefono = 555, Edad = 43 });
-listCliente.Add(new Cliente { Id = 5, Nombre = "Hernan", Sexo = "Masculino", Telefono = 777, Edad = 62 });
+listCliente.Add(new Cliente { Id = 1, Nombre = "Mauro", Sexo = "Masculino", Telefono = 4535345, Edad = 19, });
+listCliente.Add(new Cliente { Id = 2, Nombre = "Sofia", Sexo = "Femenino", Telefono = 534536, Edad = 24, });
+listCliente.Add(new Cliente { Id = 3, Nombre = "Lucas", Sexo = "Masculino", Telefono = 365463, Edad = 16, });
+listCliente.Add(new Cliente { Id = 4, Nombre = "Maria", Sexo = "Femenino", Telefono = 57555, Edad = 43 });
+listCliente.Add(new Cliente { Id = 5, Nombre = "Hernan", Sexo = "Masculino", Telefono = 867868, Edad = 62 });
 
 
 foreach (Cliente c in listCliente)
@@ -16,13 +16,5 @@ foreach (Cliente c in listCliente)
     Console.ReadLine();
 }
 
-public class Cliente
-    {
-        public int Id { get; set; }
-        public string Nombre { get; set; }
-        public string Sexo { get; set; }
-        public int Telefono { get; set; }
-        public int Edad { get; set; }
-    }
 
 
